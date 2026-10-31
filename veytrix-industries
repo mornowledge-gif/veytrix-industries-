@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veytrix Industries | Bicycle Seat Manufacturing & Wholesale</title>
+    <style>
+        :root {
+            --primary: #1A365D;
+            --secondary: #2B6CB0;
+            --whatsapp: #25D366;
+            --bg: #F7FAFC;
+            --text: #2D3748;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: white;
+            padding: 1rem 5%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .hero {
+            background: linear-gradient(rgba(26, 54, 93, 0.9), rgba(43, 108, 176, 0.9));
+            color: white;
+            padding: 6rem 5%;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        .moq-badge {
+            display: inline-block;
+            background: #ED8936;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+        .section {
+            padding: 5rem 5%;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 3rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+        .contact-info {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 4rem 5%;
+        }
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--whatsapp);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        .floating-wa {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--whatsapp);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+        }
+        footer {
+            background: #1A202C;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Veytrix Industries</div>
+        <a href="https://wa.me/919877360587?text=Hello%20Veytrix%20Industries,%20I%20would%20like%20to%20enquire%20about%20a%20bulk%20bicycle%20seat%20order." class="whatsapp-btn" target="_blank">Enquire on WhatsApp</a>
+    </header>
+
+    <section class="hero">
+        <div class="moq-badge">B2B Wholesale | MOQ: 200 Pieces</div>
+        <h1>Premium Bicycle Seat Manufacturing</h1>
+        <p>Engineered for durability and comfort. Veytrix Industries is Ludhiana’s trusted wholesale partner for high-quality bicycle saddles across all categories.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Our Manufacturing Capabilities</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>High-Impact Plastics</h3>
+                <p>We utilize industrial-grade plastics to form lightweight, weather-resistant seat bases that provide excellent structural integrity.</p>
+            </div>
+            <div class="card">
+                <h3>Durable Metals</h3>
+                <p>Heavy-duty steel and alloy springs, rails, and mounting hardware ensure maximum load support and longevity for all bicycle types.</p>
+            </div>
+            <div class="card">
+                <h3>Ergonomic Rubber</h3>
+                <p>High-density foam and rubber compounds are used for shock-absorbing covers and padding, prioritizing rider comfort on rough terrain.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <h2 style="margin-bottom: 1rem;">Partner With Us</h2>
+        <p style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Located in the manufacturing hub of Ludhiana, Punjab. We supply bulk orders for distributors, OEMs, and retailers. Connect with us directly to discuss pricing, specifications, and shipping.</p>
+        <a href="https://wa.me/919877360587?text=Hello%20Veytrix%20Industries,%20I%20would%20like%20to%20enquire%20about%20a%20bulk%20bicycle%20seat%20order." class="whatsapp-btn" target="_blank">Send Order Enquiry</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Veytrix Industries. All Rights Reserved. | Ludhiana, Punjab</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button for all pages -->
+    <a href="https://wa.me/919877360587?text=Hello%20Veytrix%20Industries,%20I%20would%20like%20to%20enquire%20about%20a%20bulk%20bicycle%20seat%20order." class="floating-wa" target="_blank">
+        💬 Chat / Enquire
+    </a>
+
+</body>
+</html>
